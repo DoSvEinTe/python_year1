@@ -1,0 +1,8 @@
+tupla=(1,2,3)
+fecha=(25,'Diciembre',2024)
+punto=(10,2)
+persona=("Heinz","Roberto",35)
+print(tupla)
+print(fecha)
+print(punto)
+print(persona)

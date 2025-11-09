@@ -1,0 +1,132 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13322{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang10\par
+
+\pard\sa200\sl276\slmult1\qc\b\fs36 Practica Ejercicios LISTA, TUPLAS Y DICCIONARIO\par
+Mi\'e9rcoles 05 de Junio 2024\b0\fs22\par
+
+\pard\sa200\sl276\slmult1\b Desarrollo:\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1\b0 Grupos de 3 integrantes.\par
+{\pntext\f1\'B7\tab}Entrega a las 17:00 hrs\par
+{\pntext\f1\'B7\tab}10 puntos para evaluaci\'f3n 3\par
+
+\pard\sa200\sl276\slmult1\b\fs32\par
+Estructura de datos tipo Tupla\b0\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Confeccionar un programa con las siguientes funciones:\par
+
+\pard\sa200\sl276\slmult1 1)Cargar una lista de 5 enteros.\par
+2)Retornar el mayor y menor valor de la lista mediante una tupla.\par
+Desempaquetar la tupla en el bloque principal y mostrar el mayor y menor.\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Confeccionar un programa con las siguientes funciones:\par
+
+\pard\sa200\sl276\slmult1 1)Cargar el nombre de un empleado y su sueldo. Retornar una tupla con dichos valores\par
+2)Una funci\'f3n que reciba como par\'e1metro dos tuplas con los nombres y sueldos de empleados y muestre el nombre del empleado con sueldo mayor.\par
+En el bloque principal del programa llamar dos veces a la funci\'f3n de carga y seguidamente llamar a la funci\'f3n que muestra el nombre de empleado con sueldo mayor.\par
+# bloque principal\par
+empleado1=cargar_empleado()\par
+empleado2=cargar_empleado()\par
+mayor_sueldo(empleado1,empleado2)\par
+\par
+\b\fs32 Listas y tuplas anidadas\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Almacenar en una lista 5 empleados, cada elemento de la lista es una sub lista con el nombre del empleado junto a sus \'faltimos tres sueldos (estos tres valores en una tupla)\par
+
+\pard\sa200\sl276\slmult1 El programa debe tener las siguientes funciones:\par
+1)Carga de los nombres de empleados y sus \'faltimos tres sueldos.\par
+2)Imprimir el monto total cobrado por cada empleado.\par
+3)Imprimir los nombres de empleados que tuvieron un ingreso trimestral mayor a 10000 en los \'faltimos tres meses.\par
+Tener en cuenta que la estructura de datos si se carga por asignaci\'f3n deber\'eda ser similar a:\par
+empleados = [["juan",(2000,3000,4233)] , ["ana",(3444,1000,5333)] ,  etc.   ]\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Se tiene que cargar los votos obtenidos por tres candidatos a una elecci\'f3n.\par
+
+\pard\sa200\sl276\slmult1 En una lista cargar en la primer componente el nombre del candidato y en la segunda componente cargar una lista con componentes de tipo tupla con el nombre de la provincia y la cantidad de votos obtenidos en dicha provincia.\par
+Se deben cargar los datos por teclado, pero si se cargaran por asignaci\'f3n tendr\'eda una estructura similar a esta:\par
+candidatos=[ ("juan",[("cordoba",100),("buenos aires",200)]) , ("ana", [("cordoba",55)]) , ("luis", [("buenos aires",20)]) ]\par
+1) Funci\'f3n para cargar todos los candidatos, sus nombres y las provincias con los votos obtenidos.\par
+2) Imprimir el nombre del candidato y la cantidad total de votos obtenidos en todas las provincias.\par
+\b\fs32 Variantes de la estructura repetitiva for para recorrer tuplas y listas\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Definir una funci\'f3n que cargue una lista con palabras y la retorne.\par
+
+\pard\sa200\sl276\slmult1 Luego otra funci\'f3n tiene que mostrar todas las palabras de la lista que tienen m\'e1s de 5 caracteres.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Almacenar los nombres de 5 productos y sus precios. Utilizar una lista y cada elemento una tupla con el nombre y el precio.\par
+
+\pard\sa200\sl276\slmult1 Desarrollar las funciones:\par
+1) Cargar por teclado.\par
+2) Listar los productos y precios.\par
+3) Imprimir los productos con precios comprendidos entre 10 y 15.\par
+\par
+\b\fs32 Estructura de datos tipo diccionario\b0\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Crear un diccionario en Python que defina como clave el n\'famero de documento de una persona y como valor un string con su nombre.\par
+
+\pard\sa200\sl276\slmult1 Desarrollar las siguientes funciones:\par
+1) Cargar por teclado los datos de 4 personas.\par
+2) Listado completo del diccionario.\par
+3) Consulta del nombre de una persona ingresando su n\'famero de documento.\par
+\par
+\b\fs32 Diccionarios: con valores de tipo listas, tuplas y diccionarios\b0\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Se desea almacenar los datos de 3 alumnos. Definir un diccionario cuya clave sea el n\'famero de documento del alumno. Como valor almacenar una lista con componentes de tipo tupla donde almacenamos nombre de materia y su nota.\par
+
+\pard\sa200\sl276\slmult1 Crear las siguientes funciones:\par
+1) Carga de los alumnos (de cada alumno solicitar su dni y los nombres de las materias y sus notas)\par
+2) Listado de todos los alumnos con sus notas\par
+3) Consulta de un alumno por su dni, mostrar las materias que cursa y sus notas.\par
+\par
+\b\fs28 Funciones: par\'e1metros de tipo lista\b0\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Crear una lista de enteros por asignaci\'f3n. Definir una funci\'f3n que reciba una lista de enteros y un segundo par\'e1metro de tipo entero. Dentro de la funci\'f3n mostrar cada elemento de la lista multiplicado por el valor entero enviado.\par
+
+\pard\sa200\sl276\slmult1 lista=[3, 7, 8, 10, 2]\par
+multiplicar(lista,3)\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Desarrollar una funci\'f3n que reciba una lista de string y nos retorne el que tiene m\'e1s caracteres. Si hay m\'e1s de uno con dicha cantidad de caracteres debe retornar el que tiene un valor de componente m\'e1s baja.\par
+
+\pard\sa200\sl276\slmult1 En el bloque principal iniciamos por asignaci\'f3n la lista de string:\par
+palabras=["enero", "febrero", "marzo", "abril", "mayo", "junio"]\par
+print("Palabra con mas caracteres:",mascaracteres(palabras))\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Definir una lista de enteros por asignaci\'f3n en el bloque principal. Llamar a una funci\'f3n que reciba la lista y nos retorne el producto de todos sus elementos. Mostrar dicho producto en el bloque principal de nuestro programa.\par
+
+\pard\sa200\sl276\slmult1\par
+\b\fs32 Funciones: retorno de una lista\b0\fs22\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 En una empresa se almacenaron los sueldos de 10 personas.\par
+
+\pard\sa200\sl276\slmult1 Desarrollar las siguientes funciones y llamarlas desde el bloque principal:\par
+1) Carga de los sueldos en una lista.\par
+2) Impresi\'f3n de todos los sueldos.\par
+3) Cu\'e1ntos tienen un sueldo superior a $4000.\par
+4) Retornar el promedio de los sueldos.\par
+5) Mostrar todos los sueldos que est\'e1n por debajo del promedio.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Desarrollar una aplicaci\'f3n que permita ingresar por teclado los nombres de 5 art\'edculos y sus precios.\par
+
+\pard\sa200\sl276\slmult1 Definir las siguientes funciones:\par
+1) Cargar los nombres de articulos y sus precios.\par
+2) Imprimir los nombres y precios.\par
+3) Imprimir el nombre de art\'edculo con un precio mayor\par
+4) Ingresar por teclado un importe y luego mostrar todos los art\'edculos con un precio menor igual al valor ingresado.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Confeccionar un programa que permita:\par
+
+\pard\sa200\sl276\slmult1 1) Cargar una lista de 10 elementos enteros.\par
+2) Generar dos listas a partir de la primera. En una guardar los valores positivos y en otra los negativos.\par
+3) Imprimir las dos listas generadas.\par
+\par
+\b\par
+\b0\par
+}
+ 
